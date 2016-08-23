@@ -18,6 +18,11 @@
 /use Heal
 /run print("GCD:",select(2,GetSpellCooldown"Heal"),"seconds")
 
+#showtooltip Healing Tonic
+/use Healing Tonic
+/use Healthstone
+/cast Desperate Prayer
+
 #showtooltip Fade
 /cast Huge Seaforium Bombs
 /cast Fade
